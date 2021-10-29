@@ -14,6 +14,7 @@ function App() {
 
   // add a plant to the cart
   const addToCart = (plant) => {
+    console.log("App : plant" , plant)
     setCart([...cart, plant]);
   };
 
